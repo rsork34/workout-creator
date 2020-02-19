@@ -1,0 +1,38 @@
+.main-container {
+  font-family: Arial, Helvetica, sans-serif;
+  border: thick solid rgb(9, 109, 143);
+  border-radius: 10px;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.container-header {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 2px solid green;
+}
+
+.workouts-container {
+  flex: 0 50%;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.workoutContainerFooter {
+  border-top: 2px solid green;
+  padding: 5px;
+  text-align: center;
+}
+
+.workouts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mainPage {
+  background-color: rgb(255, 255, 255);
+  padding-top: 25px;
+}
+
